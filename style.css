@@ -14,7 +14,7 @@
   --checkout-color: #4c4b88;
 }
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   body {
     overflow: visible;
   }
