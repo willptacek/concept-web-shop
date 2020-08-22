@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--                                
+    rip pop smoke
+                                       .--.
+                _______             .-"  .'
+        .---u"""       """"---._  ."    %
+      .'                        "--.    %
+ __.--'  o                          "".. "
+(____.                                  ":
+ `----.__                                 ".
+         `----------__                     ".
+               ".   . ""--.                 ".
+                 ". ". bIt ""-.              ".
+                   "-.)        ""-.           ".
+                                   "".         ".
+                                      "".       ".
+                                         "".      ".
+                                            "".    ".
+                      ^~^~^~^~^~^~^~^~^~^~^~^~^"".  "^~^~^~^~^
+                                            ^~^~^~^  ~^~
+                                                 ^~^~^~
+ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/shoppe-demo-site-icon.png">
+  <title>shoppe demo</title>
+</head>
+<body>
+  
+  <header>
+    <div id="left-logos" class="ferrite-medium">
+      <a target="_blank" href="https://twitter.com/willptacek"><img src="img/arrows/orange-arrow.png" alt="twitter"><img class="white-arrow" id="white-arrow-orange" src="img/arrows/orange-arrow-white.png" alt="twitter"><span class="f2f">twitter</span></a>
+      <a target="_blank" href="https://github.com/willptacek"><img src="img/arrows/purple-arrow.png" alt="github"><img class="white-arrow" id="white-arrow-purple" src="img/arrows/purple-arrow-white.png" alt="github"><span class="f2f">github</span></a>
+      <a target="_blank" href="https://www.instagram.com/willlypay/"><img src="img/arrows/green-arrow.png" alt="insta"><img class="white-arrow" id="white-arrow-green" src="img/arrows/green-arrow-white.png" alt="insta"><span class="f2f">insta</span></a>
+      <a target="_blank" href="https://www.linkedin.com/in/william-ptacek-07b893171/"><img src="img/arrows/blue-arrow.png" alt="linkedin"><img class="white-arrow" id="white-arrow-blue" src="img/arrows/blue-arrow-white.png" alt="linkedin"><span class="f2f">linkedin</span></a>
+    </div>
+    <div id="right-logos"></div>
+  </header>
+
+  <div class="main-flex">
+    <div id="center-selector">
+      <div id="main-circle" class="rotating border-tops"></div>
+      <div id="main-circle-top">
+        <div id="text-container">
+          <div id="home-text">
+            <p><span class="ferrite-medium">shoppe demo</span></p>
+            <p><span class="ferrite-light">developed by will ptacek</span></p>
+            <p><span class="ferrite-light">designed by will ptacek</span></p>
+          </div>
+
+          <div id="product-zone">
+            <div id="main-category-text" class="ferrite-medium"><p>tops</p></div>
+            <div id="product-flex">
+              <div id="product-desc">
+                <h1 class="ferrite-light">shirt.01</h1>
+                <ul id="description-list" class="ferrite-light">
+                  <li>-baggy</li>
+                  <li>-cool as fuck</li>
+                  <li>-insane shirt</li>
+                </ul>
+              </div>
+              <div id="product-grid">
+                <img src="img/products/tops/green-shirt.gif" alt="">
+              </div>
+              <div id="right-text-layers">
+                <p class="ferrite-black">in cart:<br> <span class="cart-num">0</span> items</p>
+                <div id="tops-layer" class="folding-icon"></div>
+                <div id="bottoms-layer" class="folding-icon"></div>
+                <div id="extras-layer" class="folding-icon"></div>
+                <div id="checkout-layer" class="folding-icon"></div>
+              </div>
+            </div>
+            <div id="add-to-cart-flex">
+              <div id="arrow-left" class="arrow"></div>
+              <div id="add-to-cart" class="ferrite-medium white"><p>add to cart</p></div>
+              <div id="arrow-right" class="arrow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="stats-circle">
+      <div class="outside-circle">
+        <img src="img/stat-circles/pentagon-stats.png" alt=""></img>
+        <div class="inside-circle"></div>
+        <div class="pointer-circle"></div>
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <div class="line" id="line4"></div>
+        <div class="line" id="line5"></div>
+      </div>
+    </div>
+  
+    <div id="right-selectors">
+      <div id="tops-selector" class="selector adjusted-right">
+        <div id="selector-foreground"></div>
+        <p class="dolmen top-color"><span class="main-text">tops</span><span class="ferrite-medium items-text"> collection: 2 items</span></p>
+      </div>
+      <div id="bottoms-selector" class="selector adjusted-left">
+        <div id="selector-foreground"></div>
+        <p class="dolmen bottoms-color"><span class="main-text">bottoms</span><span class="ferrite-medium items-text"> collection: 1 item</span></p>
+      </div>
+      <div id="accessories-selector" class="selector adjusted-left">
+        <div id="selector-foreground"></div>
+        <p class="dolmen accessories-color"><span class="main-text">extras</span><span class="ferrite-medium items-text"> collection: 2 items</span></p>
+      </div>
+      <div id="checkout-selector" class="selector adjusted-right">
+        <div id="selector-foreground"></div>
+        <p class="dolmen checkout-color"><span class="main-text">checkout</span><span class="ferrite-medium items-text white" id='selector-cart-text'> in cart: 0 items</span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/folding-menu.js"></script>
+  <script src="js/stats-circle.js"></script>
+  <script src="js/product-cycle.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
